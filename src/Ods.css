@@ -26,6 +26,23 @@
   text-align: right;
 }
 
+@media (max-width: 480px) {
+  .ods-grupo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .ods-grupo label {
+    min-width: unset;
+    text-align: left;
+  }
+
+  .ods-grupo select {
+    width: 100%;
+  }
+}
+
 .ods-grupo select {
   background-color: var(--purple-light);
   border: none;

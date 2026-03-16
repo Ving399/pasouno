@@ -77,3 +77,20 @@
   height: 3dvh;
 }
 
+@media (max-width: 480px) {
+  .particulars-fila {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .particulars-fila label {
+    min-width: unset;
+    text-align: left;
+    width: 100%;
+  }
+
+  .particulars-fila input[type="text"] {
+    flex: 1;
+  }
+}
+
