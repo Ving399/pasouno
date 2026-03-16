@@ -1,0 +1,45 @@
+:root {
+  --text-dark:        rgba(20, 21, 39, 1);
+  --puerple-dark:     rgba(75, 44, 192, 1);
+  --green-dark:       rgba(57, 183, 109, 1);
+  --blue-dark:        rgba(23, 56, 87, 1);
+  --purple-mid:       rgba(108, 100, 209, 1);
+  --green-light:      rgba(91, 229, 134, 1);
+  --blue-light:       rgba(33, 134, 234, 1);
+  --purple-light:     rgba(145, 135, 247, 1);
+  --purple-light-2:   rgba(218, 220, 247, 1);
+}
+
+.ods-grupo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.ods-grupo label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  min-width: 110px;
+  text-align: right;
+}
+
+.ods-grupo select {
+  background-color: var(--purple-light);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  outline: none;
+  flex: 1;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23141527' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}

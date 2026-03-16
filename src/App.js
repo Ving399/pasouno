@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Formulario from './Formulario';
+import logoPasouno from './assets/icons/pasounof.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header className="app-navbar">
+        <img src={logoPasouno} alt="Paso Uno" className="app-logo" />
       </header>
+      <div className="app-header">
+      <h1 className="app-titulo">Guía para Proyectos SCOUT</h1>
+      <p className="app-subtitulo">¿Estás lista/listo para compartir tus talentos?</p>
+      <p className="app-lema">Es tu momento para vivir nuestro lema: <span className="app-lema-acento">¡SERVIR!</span></p>
+      <p className="app-lema-sub">Es tiempo de crear tu propio camino Rover</p>
+
+      <Formulario/>
+
+      </div>
     </div>
   );
 }

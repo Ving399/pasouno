@@ -1,0 +1,136 @@
+:root {
+  --text-dark:        rgba(20, 21, 39, 1);
+  --puerple-dark:     rgba(75, 44, 192, 1);
+  --green-dark:       rgba(57, 183, 109, 1);
+  --blue-dark:       rgba(23, 56, 87, 1);
+  --purple-mid:        rgba(108, 100, 209, 1);
+  --green-light: rgba(91, 229, 134, 1);
+  --blue-light:         rgba(33, 134, 234, 1);
+  --purple-light:         rgba(145, 135, 247, 1);
+  --purple-light-2:        rgba(218, 220, 247, 1);
+  --backgrouind-general:  rgba(255, 255, 255, 0.1);
+}
+
+.form-card {
+  background-color: var(--purple-light-2);
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.form-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-grupo label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-align: left;
+}
+
+.form-grupo input[type="text"] {
+  background-color: var(--purple-light);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  color: var(--purple-light-2);
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-grupo input[type="text"]::placeholder {
+  color: var(--purple-light);
+  opacity: 0.6;
+}
+
+/* Botón descargar PDF */
+.btn-descargar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: var(--green-light);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  padding: 16px 40px;
+  border-radius: 50px;
+  max-width: 340px;
+  margin: 24px auto;
+  text-align: center;
+}
+
+.btn-descargar:hover {
+  background-color: var(--green-dark);
+}
+
+.btn-descargar img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Selector de rutas rover */
+.rutas-titulo {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.rutas-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+}
+
+.ruta-opcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 10px;
+  flex: 1;
+  transition: background-color 0.2s;
+}
+
+.ruta-opcion:hover {
+  background-color: var(--purple-mid);
+}
+
+.ruta-opcion.seleccionada {
+  background-color: var(--purple-mid);
+}
+
+.ruta-opcion img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.ruta-opcion span {
+  font-size: 0.75rem;
+  color: var(--text-dark);
+  text-align: center;
+  line-height: 1.3;
+}
