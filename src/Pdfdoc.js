@@ -1,5 +1,4 @@
 import { Document, Page, Text, View, StyleSheet, Image } from '@react-pdf/renderer';
-import logo from './assets/icons/rebels_icon.png';
 import logoPasouno from './assets/icons/pasounof.png';
 import imgMaya from './assets/icons/maya.png';
 import imgOtomi from './assets/icons/otomi.png';
