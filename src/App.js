@@ -9,7 +9,7 @@ function App() {
         <img src={logoPasouno} alt="Paso Uno" className="app-logo" />
       </header>
       <div className="app-header">
-      <h1 className="app-titulo">Guía para Proyectos SCOUT</h1>
+      <h1 className="app-titulo">Guía para Anteproyectos SCOUT</h1>
       <p className="app-subtitulo">¿Estás lista/listo para compartir tus talentos?</p>
       <p className="app-lema">Es tu momento para vivir nuestro lema: <span className="app-lema-acento">¡SERVIR!</span></p>
       <p className="app-lema-sub">Es tiempo de crear tu propio camino Rover</p>
